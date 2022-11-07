@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">AppTrasteo</string>
+    <string name="logo">logoTM</string>
+    <string name="inicio">Iniciar Sesión</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="ingreso">Ingresar</string>
+    <string name="regsitrar">Registrarse</string>
+    <string name="recordar">¿Olvido su contraseña?</string>
+    <string name="registrar">Registrar Usuario</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masculino</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="telefono">Teléfono</string>
+    <string name="direccion">Dirección</string>
+    <string name="correo">Correo</string>
+    <string name="clave">Contraseña</string>
+    <string name="registrarse">Registrar</string>
+    <string name="pantalla">Pantalla con fragmentos</string>
+    <string name="recuperar">Recuperar Constraseña</string>
+    <string name="ingresarCorreo">Ingrese el correo</string>
+    <string name="recuperarClave">Recuperar</string>
 </resources>

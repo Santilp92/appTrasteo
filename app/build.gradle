@@ -6,6 +6,9 @@ plugins {
 android {
     namespace 'com.example.apptrasteo'
     compileSdk 32
+    viewBinding{
+        enable = true
+    }
 
     defaultConfig {
         applicationId "com.example.apptrasteo"
