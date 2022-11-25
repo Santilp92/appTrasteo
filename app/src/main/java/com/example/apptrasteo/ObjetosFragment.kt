@@ -45,7 +45,7 @@ class ObjetosFragment : Fragment(R.layout.fragment_objetos) {
         }
         fab = binding.agregar
         fab!!.setOnClickListener {
-            startActivity(intent))
+            startActivity(intent)
         }
     }
 }

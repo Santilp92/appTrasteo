@@ -16,7 +16,7 @@ class HomeActivity: AppCompatActivity(){
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val email = intent.getStringExtra("email")
-        //Toast.makeText(this,"Bienvenido $email", Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Bienvenido $email", Toast.LENGTH_LONG).show()
         val objetos_F = ObjetosFragment()
         val camiones_F = CamionesFragment()
         val viajes_F = ViajesFragment()

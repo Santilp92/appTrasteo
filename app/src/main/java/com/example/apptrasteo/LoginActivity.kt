@@ -42,7 +42,7 @@ class LoginActivity: AppCompatActivity() {
             Toast.makeText(this,"Ingrese su contraseña", Toast.LENGTH_LONG).show()
         }else if(email == email_bd){
             if(clave == pass_bd){
-                Toast.makeText(this,"Bienvenido $nombre_bd $apellido_bd", Toast.LENGTH_LONG).show()
+                //Toast.makeText(this,"Bienvenido $nombre_bd $apellido_bd", Toast.LENGTH_LONG).show()
                 var intent = Intent(this, HomeActivity::class.java)
                 intent.putExtra("email", email_bd)
                 startActivity(intent)
