@@ -43,7 +43,9 @@ class LoginActivity: AppCompatActivity() {
         }else if(email == email_bd){
             if(clave == pass_bd){
                 Toast.makeText(this,"Bienvenido $nombre_bd $apellido_bd", Toast.LENGTH_LONG).show()
-                startActivity(Intent(this, HomeActivity::class.java))
+                var intent = Intent(this, HomeActivity::class.java)
+                intent.putExtra("email", email_bd)
+                startActivity(intent)
             }else{
                 Toast.makeText(this,"Contraseña Incorrecta", Toast.LENGTH_LONG).show()
             }

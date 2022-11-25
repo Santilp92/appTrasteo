@@ -22,4 +22,23 @@
     <string name="ingresarCorreo">Ingrese el correo</string>
     <string name="recuperarClave">Recuperar</string>
     <string name="splash">Splash}</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="objects">Objects</string>
+    <string name="truck">Truck</string>
+    <string name="trip">Trips</string>
+    <string name="account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagenConductor">Conductor</string>
+    <string name="conductor">Nombre Conductor</string>
+    <string name="ciudadConductor">Ciudad Conductor</string>
+    <string name="telefonoConductor">Telefono Conductor</string>
+    <string name="fotoConductor">Foto</string>
+    <string name="nombreObjeto">Nombre Objeto</string>
+    <string name="alto">Alto (cms)</string>
+    <string name="ancho">Ancho (cms)</string>
+    <string name="largo">Largo (cms)</string>
+    <string name="peso">Peso (Kg)</string>
+    <string name="registrarobjetos">Registrar Objetos</string>
+    <string name="unidades">Unidades</string>
 </resources>
